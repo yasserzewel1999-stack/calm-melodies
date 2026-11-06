@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ألحان هادئة</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Tahoma, Arial, sans-serif;
+      color: #ffffff;
+      background: linear-gradient(rgba(0,40,20,0.55), rgba(0,40,20,0.75)),
+        url('https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80') center/cover fixed;
+      min-height: 100vh;
+    }
+    header { text-align: center; padding: 60px 20px 30px; }
+    header h1 { font-size: 2.6rem; margin-bottom: 12px; }
+    header p { font-size: 1.15rem; opacity: 0.9; }
+    .btn {
+      display: inline-block; margin-top: 22px; padding: 12px 28px;
+      background: #2e9e5b; color: #fff; text-decoration: none;
+      border-radius: 30px; font-size: 1.1rem;
+    }
+    section { max-width: 900px; margin: 30px auto; padding: 0 20px; }
+    section h2 { text-align: center; margin-bottom: 20px; }
+    .videos { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; }
+    .card {
+      background: rgba(255,255,255,0.12); border-radius: 14px;
+      padding: 14px; backdrop-filter: blur(4px);
+    }
+    .card iframe { width: 100%; height: 170px; border: 0; border-radius: 10px; }
+    .card h3 { margin-top: 10px; font-size: 1rem; text-align: center; }
+    footer { text-align: center; padding: 40px 20px; opacity: 0.8; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🌿 ألحان هادئة 🌿</h1>
+    <p>موسيقى هادئة مع مناظر الطبيعة والغابات للاسترخاء والراحة</p>
+    <a class="btn" href="https://www.youtube.com/@YasserZewel" target="_blank">زوروا قناتنا على يوتيوب</a>
+  </header>
+
+  <section>
+    <h2>أحدث الفيديوهات</h2>
+    <div class="videos">
+      <div class="card">
+        <!-- غيّر VIDEO_ID_1 برقم الفيديو الخاص بك من رابط يوتيوب -->
+        <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" allowfullscreen></iframe>
+        <h3>اسم الفيديو الأول</h3>
+      </div>
+      <div class="card">
+        <iframe src="https://www.youtube.com/embed/VIDEO_ID_2" allowfullscreen></iframe>
+        <h3>اسم الفيديو الثاني</h3>
+      </div>
+      <div class="card">
+        <iframe src="https://www.youtube.com/embed/VIDEO_ID_3" allowfullscreen></iframe>
+        <h3>اسم الفيديو الثالث</h3>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© ألحان هادئة - جميع الحقوق محفوظة</p>
+  </footer>
+
+</body>
+</html>
